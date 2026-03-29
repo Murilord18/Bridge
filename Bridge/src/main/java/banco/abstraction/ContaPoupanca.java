@@ -40,9 +40,8 @@ public class ContaPoupanca extends Conta{
         System.out.println();
     }
 
+    public double getSaldo() { return saldo; }
 
-
-
-
+    public double getTaxa() { return banco.calcularTaxa(saldo); }
 
 }
